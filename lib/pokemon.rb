@@ -8,7 +8,7 @@ class Pokemon
     @db = db
   end
 
-  def save
+  def self.save
     #self.update if !self.id
     sql = <<-SQL
     INSERT INTO pokemon (name, type)
