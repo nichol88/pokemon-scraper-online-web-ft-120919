@@ -9,7 +9,9 @@ class Pokemon
   end
 
   def self.save
-
+    sql = <<-SQL
+    INSERT INTO pokemon
+    SQL
   end
 
   def self.find
